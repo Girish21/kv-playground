@@ -1,12 +1,16 @@
-name = "remix-cloudflare-template"
+name = "kv-playground"
 type = "javascript"
 
-compatibility_date = "2021-11-16"
+compatibility_date = "2021-12-09"
 
 zone_id = ""
 account_id = ""
 route = ""
 workers_dev = true
+
+kv_namespaces = [
+  { binding = "MY_FIRST_KV", id = "8e641624751f48cb845f94d9c1dc7562" }
+]
 
 [site]
 bucket = "./public"
